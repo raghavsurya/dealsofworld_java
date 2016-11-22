@@ -216,7 +216,7 @@
                 <div class="col-md-9">
                     <div class="row" data-gutter="15">
 					<h2>Contact DealsOfWorld.com!</h2>
-					<h3>If have any questions or concern please feel free to send a note to support@dealsofworld.com and we will try to get back to you asap.</h3>
+					<h3>If you have any questions or concerns please feel free to send a note to support@dealsofworld.com and we will try to get back to you asap.</h3>
 					<h3>Thank you</h3>	
 					</div>
 

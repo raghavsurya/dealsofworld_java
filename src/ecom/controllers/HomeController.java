@@ -19,6 +19,8 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.SessionAttributes;
 
+import java.io.File;
+
 import ecom.api.Bapi;
 import ecom.api.WBPapi;
 import ecom.api.WCapi;
@@ -649,6 +651,34 @@ public String submitdeal() {
 public String gopi() {
 	
 	return "gopi";
+}
+
+@RequestMapping(value = "product", method = RequestMethod.GET)
+public String product() {
+	
+	return "product";
+}
+
+@RequestMapping(value = "blackfriday/{id}", method = RequestMethod.GET)
+public String blackfriday(@PathVariable("id")String id,Model model) {
+       File folder = new File("C:\\Users\\Arun Chinnannan\\Desktop\\dealsofworld\\WebContent\\resources\\img\\blackfriday\\");
+       File[] listOfFiles = folder.listFiles();
+       List<String> listTemp = new ArrayList<String>();
+       List<String> list = new ArrayList<String>();
+           for (int i = 0; i < listOfFiles.length; i++) {
+             if (listOfFiles[i].isFile()) {
+                listTemp.add(listOfFiles[i].getName());
+             } else if (listOfFiles[i].isDirectory()) {
+               System.out.println("Directory " + listOfFiles[i].getName());
+             }
+           }
+           for(String listContains:listTemp){
+              if(listContains.contains(id)){
+                     list.add(listContains);
+              }
+           }
+           model.addAttribute("blackfriday", list);
+       return "blackfriday";
 }
 
 @RequestMapping(value = "search", method = RequestMethod.POST)

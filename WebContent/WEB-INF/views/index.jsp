@@ -198,162 +198,184 @@
 					</button>
 					<a class="navbar-brand" href="/"> <img
 						src="<c:url value="/resources/img/logo-w.png"/>"
-						alt="Image Alternative text" title="Image Title" />
+						alt="Deals of World" title="Deals of World" />
 					</a>
 				</div>
 				<div class="collapse navbar-collapse" id="main-nav-collapse">
-<ul class="nav navbar-nav">
-<li class="dropdown"><a href="#"><i class="fa fa-reorder"></i>&nbsp; Deals by Category<i class="drop-caret" data-toggle="dropdown"></i></a>
-    <ul class="dropdown-menu dropdown-menu-category">
-                                    <li><a href="#"><i class="fa fa-tags dropdown-menu-category-icon"></i>Top deals</a>
-                                    <div class="dropdown-menu-category-section">
-                                        <div class="dropdown-menu-category-section-inner">
-                                            <div class="dropdown-menu-category-section-content">
-                                                <div class="row">
-                                                    <div class="col-md-6">
-                                                        <h5 class="dropdown-menu-category-title">Top deals</h5>
-                                                        <ul class="dropdown-menu-category-list">
-																<li><a href="bestselling">Top Bestselling Products</a>
-																</li>
-																<li><a href="specialbuy">Top Special Buys</a>
-																</li>
-																<li><a href="rollback">Top Rollback Products</a>
-																</li>
-																<li><a href="clearance">Top Clearance Products</a>
-																</li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <img class="dropdown-menu-category-section-theme-img" src="/resources/img/test_cat/4.png" alt="Image Alternative text" title="Image Title" />
-                                        </div>
-                                    </div>
-                                </li>
-                                <li><a href="#"><i class="fa fa-plug dropdown-menu-category-icon"></i>Electronics</a>
-                                    <div class="dropdown-menu-category-section">
-                                        <div class="dropdown-menu-category-section-inner">
-                                            <div class="dropdown-menu-category-section-content">
-                                                <div class="row">
-                                                    <div class="col-md-6">
-                                                        <h5 class="dropdown-menu-category-title">Electronics</h5>
-                                                        <ul class="dropdown-menu-category-list">
-                                                            <li><a href="category/abcat0101000_TVs">TVs</a>
-                                                            </li>
-                                                            <li><a href="category/pcmcat241600050001_Home-Audio">Home Audio</a>
-                                                            </li>
-                                                            <li><a href="category/abcat0401000_Digital-Cameras">Digital Cameras</a>
-                                                            </li>
-                                                            <li><a href="category/pcmcat209400050001_All-Cell-Phones-with-Plans">All Cell Phones with Plans</a>
-                                                            </li>
-                                                            <li><a href="category/abcat0204000_Headphones">Headphones</a>
-                                                            </li>
-                                                            <li><a href="category/pcmcat310200050004_Portable-&-Wireless-Speakers">Portable & Wireless Speakers</a>
-                                                            </li>
-      														<li><a href="category/pcmcat300300050002_Xbox-One">Xbox One</a>
-                                                            </li>
-                                                        </ul>
-                                                    </div>
-                                                    <div class="col-md-6">
-                                                        <h5 class="dropdown-menu-category-title">Computers</h5>
-                                                        <ul class="dropdown-menu-category-list">
-                                                            <li><a href="category/abcat0502000_Laptops">Laptops</a>
-                                                            </li>
-                                                            <li><a href="category/abcat0501000_Desktop-and-All-in-One-Computers">Desktop and All-in-One Computers</a>
-                                                            </li>
-                                                            <li><a href="category/pcmcat209000050006_Ipad,-Tablets-&-E-Readers">Ipad, Tablets & E-Readers</a>
-                                                            </li>
-                                                            <li><a href="category/pcmcat295700050012_PlayStation-4">PlayStation 4</a>
-                                                            </li>
+					<ul class="nav navbar-nav">
+						<li class="dropdown"><a href="#"><i class="fa fa-reorder"></i>&nbsp;
+								Deals by Category<i class="drop-caret" data-toggle="dropdown"></i></a>
+							<ul class="dropdown-menu dropdown-menu-category">
+								<li><a href="#"><i
+										class="fa fa-tags dropdown-menu-category-icon"></i>Top deals</a>
+									<div class="dropdown-menu-category-section">
+										<div class="dropdown-menu-category-section-inner">
+											<div class="dropdown-menu-category-section-content">
+												<div class="row">
+													<div class="col-md-6">
+														<h5 class="dropdown-menu-category-title">Top deals</h5>
+														<ul class="dropdown-menu-category-list">
+															<li><a href="bestselling">Top Bestselling
+																	Products</a></li>
+															<li><a href="specialbuy">Top Special Buys</a></li>
+															<li><a href="rollback">Top Rollback Products</a></li>
+															<li><a href="clearance">Top Clearance Products</a></li>
+														</ul>
+													</div>
+												</div>
+											</div>
+											<img class="dropdown-menu-category-section-theme-img"
+												src="/resources/img/test_cat/4.png"
+												alt="Image Alternative text" title="Image Title" />
+										</div>
+									</div></li>
+								<li><a href="#"><i
+										class="fa fa-plug dropdown-menu-category-icon"></i>Electronics</a>
+									<div class="dropdown-menu-category-section">
+										<div class="dropdown-menu-category-section-inner">
+											<div class="dropdown-menu-category-section-content">
+												<div class="row">
+													<div class="col-md-6">
+														<h5 class="dropdown-menu-category-title">Electronics</h5>
+														<ul class="dropdown-menu-category-list">
+															<li><a href="category/abcat0101000_TVs">TVs</a></li>
+															<li><a href="category/pcmcat241600050001_Home-Audio">Home
+																	Audio</a></li>
+															<li><a href="category/abcat0401000_Digital-Cameras">Digital
+																	Cameras</a></li>
+															<li><a
+																href="category/pcmcat209400050001_All-Cell-Phones-with-Plans">All
+																	Cell Phones with Plans</a></li>
+															<li><a href="category/abcat0204000_Headphones">Headphones</a>
+															</li>
+															<li><a
+																href="category/pcmcat310200050004_Portable-&-Wireless-Speakers">Portable
+																	& Wireless Speakers</a></li>
+															<li><a href="category/pcmcat300300050002_Xbox-One">Xbox
+																	One</a></li>
+														</ul>
+													</div>
+													<div class="col-md-6">
+														<h5 class="dropdown-menu-category-title">Computers</h5>
+														<ul class="dropdown-menu-category-list">
+															<li><a href="category/abcat0502000_Laptops">Laptops</a>
+															</li>
+															<li><a
+																href="category/abcat0501000_Desktop-and-All-in-One-Computers">Desktop
+																	and All-in-One Computers</a></li>
+															<li><a
+																href="category/pcmcat209000050006_Ipad,-Tablets-&-E-Readers">Ipad,
+																	Tablets & E-Readers</a></li>
+															<li><a
+																href="category/pcmcat295700050012_PlayStation-4">PlayStation
+																	4</a></li>
 
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <img class="dropdown-menu-category-section-theme-img" src="/resources/img/test_cat/5.png" alt="Image Alternative text" title="Image Title" />
-                                        </div>
-                                    </div>
-                                </li>
-                                <li><a href="#"><i class="fa fa-plug dropdown-menu-category-icon"></i>Video Games</a>
-                                    <div class="dropdown-menu-category-section">
-                                        <div class="dropdown-menu-category-section-inner">
-                                            <div class="dropdown-menu-category-section-content">
-                                                <div class="row">
-                                                    <div class="col-md-6">
-                                                        <h5 class="dropdown-menu-category-title">Video Games</h5>
-                                                        <ul class="dropdown-menu-category-list">
-                                                            <li><a href="category/pcmcat232900050000_Nintendo-3DS">Nintendo 3DS</a>
-                                                            </li>
-                                                            <li><a href="category/pcmcat243400050029_PS-Vita">PS Vita</a>
-                                                            </li>
-                                                            <li><a href="category/pcmcat273800050036_Wii-U">Wii U</a>
-                                                            </li>     
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <img class="dropdown-menu-category-section-theme-img" src="/resources/img/test_cat/5.png" alt="Image Alternative text" title="Image Title" />
-                                        </div>
-                                    </div>
-                                </li>                                
-                                <li><a href="#"><i class="fa fa-home dropdown-menu-category-icon"></i>Home & Garden</a>
-                                    <div class="dropdown-menu-category-section">
-                                        <div class="dropdown-menu-category-section-inner">
-                                            <div class="dropdown-menu-category-section-content">
-                                                <div class="row">
-                                                    <div class="col-md-6">
-                                                        <h5 class="dropdown-menu-category-title">Home & Garden</h5>
-                                                        <ul class="dropdown-menu-category-list">
-                                                            <li><a href="category/abcat0904000_Ranges,-Cooktops-&-Ovens">Ranges, Cooktops & Ovens</a>
-                                                            </li>
-                                                            <li><a href="category/abcat0910000_Washers-&-Dryers">Washers & Dryers</a>
-                                                            </li>
-                                                            <li><a href="category/abcat0901000_Refrigerators">Refrigerators</a>
-                                                            </li>
-                                                            <li><a href="category/abcat0912000_Small-Kitchen-Appliances">Small Kitchen Appliances</a>
-                                                            </li>
-                                                            <li><a href="specialbuy/77622_Home-Audio-Theater">Home Audio Theater</a>
-                                                            </li>
-                                                        </ul>
-                                                    </div>
-                                                    <div class="col-md-6">
-                                                        <h5 class="dropdown-menu-category-title">Home Improvement</h5>
-                                                        <ul class="dropdown-menu-category-list">
-                                                            <li><a href="category/pcmcat254000050002_Home-Automation-&-Security">Home Automation & Security</a>
-                                                            </li>
-                                                            <li><a href="activeAdventurer">Active Adventurer</a>
-                                                            </li>
-                                                            <li><a href="connectedHome">Connected Home</a>
-                                                            </li>
-                                                            
-                                                           </ul>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <img class="dropdown-menu-category-section-theme-img" src="/resources/img/test_cat/2.png" alt="Image Alternative text" title="Image Title" style="right: -10px;" />
-                                        </div>
-                                    </div>
-                                </li>
-                                <li><a href="#"><i class="fa fa-music dropdown-menu-category-icon"></i>Health, Fitness & Beauty</a>
-                                    <div class="dropdown-menu-category-section">
-                                        <div class="dropdown-menu-category-section-inner">
-                                            <div class="dropdown-menu-category-section-content">
-                                                <div class="row">
-                                                    <div class="col-md-6">
-                                                        <h5 class="dropdown-menu-category-title">Health, Fitness & Beauty</h5>
-                                                        <ul class="dropdown-menu-category-list">
-                                                            <li><a href="category/pcmcat242800050021_Health,-Fitness-&-Beauty">Health, Fitness & Beauty</a>
-                                                            </li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <img class="dropdown-menu-category-section-theme-img" src="/resources/img/test_cat/9.png" alt="Image Alternative text" title="Image Title" style="right: -27px;" />
-                                        </div>
-                                    </div>
-                                </li>                                
-	</ul>
-</li>
-</ul>
+														</ul>
+													</div>
+												</div>
+											</div>
+											<img class="dropdown-menu-category-section-theme-img"
+												src="/resources/img/test_cat/5.png"
+												alt="Image Alternative text" title="Image Title" />
+										</div>
+									</div></li>
+								<li><a href="#"><i
+										class="fa fa-plug dropdown-menu-category-icon"></i>Video Games</a>
+									<div class="dropdown-menu-category-section">
+										<div class="dropdown-menu-category-section-inner">
+											<div class="dropdown-menu-category-section-content">
+												<div class="row">
+													<div class="col-md-6">
+														<h5 class="dropdown-menu-category-title">Video Games</h5>
+														<ul class="dropdown-menu-category-list">
+															<li><a
+																href="category/pcmcat232900050000_Nintendo-3DS">Nintendo
+																	3DS</a></li>
+															<li><a href="category/pcmcat243400050029_PS-Vita">PS
+																	Vita</a></li>
+															<li><a href="category/pcmcat273800050036_Wii-U">Wii
+																	U</a></li>
+														</ul>
+													</div>
+												</div>
+											</div>
+											<img class="dropdown-menu-category-section-theme-img"
+												src="/resources/img/test_cat/5.png"
+												alt="Image Alternative text" title="Image Title" />
+										</div>
+									</div></li>
+								<li><a href="#"><i
+										class="fa fa-home dropdown-menu-category-icon"></i>Home &
+										Garden</a>
+									<div class="dropdown-menu-category-section">
+										<div class="dropdown-menu-category-section-inner">
+											<div class="dropdown-menu-category-section-content">
+												<div class="row">
+													<div class="col-md-6">
+														<h5 class="dropdown-menu-category-title">Home &
+															Garden</h5>
+														<ul class="dropdown-menu-category-list">
+															<li><a
+																href="category/abcat0904000_Ranges,-Cooktops-&-Ovens">Ranges,
+																	Cooktops & Ovens</a></li>
+															<li><a href="category/abcat0910000_Washers-&-Dryers">Washers
+																	& Dryers</a></li>
+															<li><a href="category/abcat0901000_Refrigerators">Refrigerators</a>
+															</li>
+															<li><a
+																href="category/abcat0912000_Small-Kitchen-Appliances">Small
+																	Kitchen Appliances</a></li>
+															<li><a href="specialbuy/77622_Home-Audio-Theater">Home
+																	Audio Theater</a></li>
+														</ul>
+													</div>
+													<div class="col-md-6">
+														<h5 class="dropdown-menu-category-title">Home
+															Improvement</h5>
+														<ul class="dropdown-menu-category-list">
+															<li><a
+																href="category/pcmcat254000050002_Home-Automation-&-Security">Home
+																	Automation & Security</a></li>
+															<li><a href="activeAdventurer">Active Adventurer</a>
+															</li>
+															<li><a href="connectedHome">Connected Home</a></li>
+
+														</ul>
+													</div>
+												</div>
+											</div>
+											<img class="dropdown-menu-category-section-theme-img"
+												src="/resources/img/test_cat/2.png"
+												alt="Image Alternative text" title="Image Title"
+												style="right: -10px;" />
+										</div>
+									</div></li>
+								<li><a href="#"><i
+										class="fa fa-music dropdown-menu-category-icon"></i>Health,
+										Fitness & Beauty</a>
+									<div class="dropdown-menu-category-section">
+										<div class="dropdown-menu-category-section-inner">
+											<div class="dropdown-menu-category-section-content">
+												<div class="row">
+													<div class="col-md-6">
+														<h5 class="dropdown-menu-category-title">Health,
+															Fitness & Beauty</h5>
+														<ul class="dropdown-menu-category-list">
+															<li><a
+																href="category/pcmcat242800050021_Health,-Fitness-&-Beauty">Health,
+																	Fitness & Beauty</a></li>
+														</ul>
+													</div>
+												</div>
+											</div>
+											<img class="dropdown-menu-category-section-theme-img"
+												src="/resources/img/test_cat/9.png"
+												alt="Image Alternative text" title="Image Title"
+												style="right: -27px;" />
+										</div>
+									</div></li>
+							</ul></li>
+					</ul>
 
 
 
@@ -397,12 +419,13 @@
 
 				</ul>
 			</header>
-			<div id="myCarousel" style="border-radius: 35px;" class="carousel slide" data-ride="carousel">
+			<div id="myCarousel" style="border-radius: 35px;"
+				class="carousel slide" data-ride="carousel">
 				<h2 style="text-align: center">2016 Black Friday Ad Scans</h2>
 				<!-- Indicators -->
 				<ol class="carousel-indicators">
 					<li data-target="#myCarousel" data-slide-to="0" class="active">
-					
+
 					</li>
 					<li data-target="#myCarousel" data-slide-to="1"></li>
 					<li data-target="#myCarousel" data-slide-to="2"></li>
@@ -412,105 +435,200 @@
 				<!-- Wrapper for slides -->
 				<div class="carousel-inner" role="listbox">
 					<div class="item active">
-					<div class="col-lg-12" style="margin:7%">
-							<div class="col-lg-2" >
-							<a href="http://store.hp.com/?source=aw&aid=7168&jumpid=af_6mrc7uxaeb&awc=7168_1479425719_bc16c69bc6c6b5bf05c18d6fe29dd276&aoid=35252&pbid=139740&siteid=http%3A%2F%2Fdealspl%2Eus" target="_blank"> <img height="180" width="180" src="<c:url value="/resources/img/hp.jpg"/>"
-						alt="Image Alternative text" title="Image Title" /><h4 style="color:white;text-align:center;margin-top:2%">HP</h4>
-						</a>
-						</div>
-						<div class="col-lg-2">
-						<a href="http://blackfriday.bestbuy.com/?category=doorbusters" target="_blank"> <img height="180" width="180" src="<c:url value="/resources/img/BestBuy.jpg"/>"
-						alt="Image Alternative text" title="Image Title" /><h4 style="color:white;text-align:center;margin-top:2%">Best Buy</h4></a></div>
-						<div class="col-lg-2">
-						<a href="http://www.kohls.com/sale-event/black-friday-deals.jsp" target="_blank"> <img height="180" width="180" src="<c:url value="/resources/img/Kohls.jpg"/>"
-						alt="Image Alternative text" title="Image Title" /><h4 style="color:white;text-align:center;margin-top:2%">Kohls</h4></a></div>
-						<div class="col-lg-2">
-						<a href="https://www.walmart.com/cp/black-friday/1076614" target="_blank"> <img height="180" width="180" src="<c:url value="/resources/img/walmart.jpg"/>"
-						alt="Image Alternative text" title="Image Title" /><h4 style="color:white;text-align:center;margin-top:2%">Walmart</h4></a></div>
-						<div class="col-lg-2">
-						<a href="http://intl.target.com/c/target-black-friday/-/N-5q0f2" target="_blank"> <img height="180" width="180" src="<c:url value="/resources/img/Target.jpg"/>"
-						alt="Image Alternative text" title="Image Title" /><h4 style="color:white;text-align:center;margin-top:2%">Target</h4></a></div>
-						<div class="col-lg-2"></div>
-						</div>
-					</div>
-
-					<div class="item">
-						<div class="col-lg-12" style="margin:7%">
-							<div class="col-lg-2" >
-							<a href="http://www.newegg.com/Black-Friday-Sale/EventSaleStore/ID-42" target="_blank"> <img height="180" width="180" src="<c:url value="/resources/img/Newegg.jpg"/>"
-						alt="Image Alternative text" title="Image Title" /><h4 style="color:white;text-align:center;margin-top:2%">NewEgg</h4>
-						</a>
-						</div>
-						<div class="col-lg-2">
-						<a href="http://www.staples.com/deals/Black-Friday-2016-Deals/BI1146571" target="_blank"> <img height="180" width="180" src="<c:url value="/resources/img/Staples.jpg"/>"
-						alt="Image Alternative text" title="Image Title" /><h4 style="color:white;text-align:center;margin-top:2%">Staples</h4></a></div>
-						<div class="col-lg-2">
-						<a href="https://blackfriday.com/stores/sears" target="_blank"> <img height="180" width="180" src="<c:url value="/resources/img/Sears.jpg"/>"
-						alt="Image Alternative text" title="Image Title" /><h4 style="color:white;text-align:center;margin-top:2%">Sears</h4></a></div>
-						<div class="col-lg-2">
-						<a href="http://shop.lenovo.com/gb/en/deals-and-coupons/black-friday-deals/" target="_blank"> <img height="180" width="180" src="<c:url value="/resources/img/Lenovo.jpg"/>"
-						alt="Image Alternative text" title="Image Title" /><h4 style="color:white;text-align:center;margin-top:2%">Lenovo</h4></a></div>
-						<div class="col-lg-2">
-						<a href="http://bestblackfriday.com/ads/kmart-black-friday" target="_blank"> <img height="180" width="180" src="<c:url value="/resources/img/Kmart.jpg"/>"
-						alt="Image Alternative text" title="Image Title" /><h4 style="color:white;text-align:center;margin-top:2%">Kmart</h4></a></div>
-						<div class="col-lg-2"></div>
+						<div class="col-lg-12" style="margin: 7%">
+							<div class="col-lg-2">
+								<a
+									href="http://store.hp.com/?source=aw&aid=7168&jumpid=af_6mrc7uxaeb&awc=7168_1479425719_bc16c69bc6c6b5bf05c18d6fe29dd276&aoid=35252&pbid=139740&siteid=http%3A%2F%2Fdealspl%2Eus"
+									target="_blank"> <img height="180" width="180"
+									src="<c:url value="/resources/img/hp.jpg"/>"
+									alt="Image Alternative text" title="Image Title" />
+								<h4 style="color: white; text-align: center; margin-top: 2%">HP</h4>
+								</a>
+							</div>
+							<div class="col-lg-2">
+								<a href="http://blackfriday.bestbuy.com/?category=doorbusters"
+									target="_blank"> <img height="180" width="180"
+									src="<c:url value="/resources/img/BestBuy.jpg"/>"
+									alt="Image Alternative text" title="Image Title" />
+								<h4 style="color: white; text-align: center; margin-top: 2%">Best
+										Buy</h4></a>
+							</div>
+							<div class="col-lg-2">
+								<a href="http://www.kohls.com/sale-event/black-friday-deals.jsp"
+									target="_blank"> <img height="180" width="180"
+									src="<c:url value="/resources/img/Kohls.jpg"/>"
+									alt="Image Alternative text" title="Image Title" />
+								<h4 style="color: white; text-align: center; margin-top: 2%">Kohls</h4></a>
+							</div>
+							<div class="col-lg-2">
+								<a href="https://www.walmart.com/cp/black-friday/1076614"
+									target="_blank"> <img height="180" width="180"
+									src="<c:url value="/resources/img/walmart.jpg"/>"
+									alt="Image Alternative text" title="Image Title" />
+								<h4 style="color: white; text-align: center; margin-top: 2%">Walmart</h4></a>
+							</div>
+							<div class="col-lg-2">
+								<a href="http://intl.target.com/c/target-black-friday/-/N-5q0f2"
+									target="_blank"> <img height="180" width="180"
+									src="<c:url value="/resources/img/Target.jpg"/>"
+									alt="Image Alternative text" title="Image Title" />
+								<h4 style="color: white; text-align: center; margin-top: 2%">Target</h4></a>
+							</div>
+							<div class="col-lg-2"></div>
 						</div>
 					</div>
 
 					<div class="item">
-						<div class="col-lg-12" style="margin:7%">
-							<div class="col-lg-2" >
-							<a href="https://www.microsoftstore.com/store/msca/en_CA/cat/Black-Friday-Sale/categoryID.70456100" target="_blank"> <img height="180" width="180" src="<c:url value="/resources/img/MSS.jpg"/>"
-						alt="Image Alternative text" title="Image Title" /><h4 style="color:white;text-align:center;margin-top:2%">Microsoft Store</h4>
-						</a>
-						</div>
-						<div class="col-lg-2">
-						<a href="http://www.bodybuilding.com/store/black-friday-deals.html" target="_blank"> <img height="180" width="180" src="<c:url value="/resources/img/BBC.jpg"/>"
-						alt="Image Alternative text" title="Image Title" /><h4 style="color:white;text-align:center;margin-top:2%">BodyBulding.com</h4></a></div>
-						<div class="col-lg-2">
-						<a href="http://www.toysrus.com/shop/index.jsp?categoryId=16289696" target="_blank"> <img height="180" width="180" src="<c:url value="/resources/img/tru.jpg"/>"
-						alt="Image Alternative text" title="Image Title" /><h4 style="color:white;text-align:center;margin-top:2%">Toys R Us</h4></a></div>
-						<div class="col-lg-2">
-						<a href="http://www.samsclub.com/sams/black-friday/4820109.cp" target="_blank"> <img height="180" width="180" src="<c:url value="/resources/img/sc.jpg"/>"
-						alt="Image Alternative text" title="Image Title" /><h4 style="color:white;text-align:center;margin-top:2%">Sam's Club</h4></a></div>
-						<div class="col-lg-2">
-						<a href="http://www.gamestop.com/INTL/choose_site_all.html" target="_blank"> <img height="180" width="180" src="<c:url value="/resources/img/gs.jpg"/>"
-						alt="Image Alternative text" title="Image Title" /><h4 style="color:white;text-align:center;margin-top:2%">GameStop</h4></a></div>
-						<div class="col-lg-2"></div>
+						<div class="col-lg-12" style="margin: 7%">
+							<div class="col-lg-2">
+								<a
+									href="http://www.newegg.com/Black-Friday-Sale/EventSaleStore/ID-42"
+									target="_blank"> <img height="180" width="180"
+									src="<c:url value="/resources/img/Newegg.jpg"/>"
+									alt="Image Alternative text" title="Image Title" />
+								<h4 style="color: white; text-align: center; margin-top: 2%">NewEgg</h4>
+								</a>
+							</div>
+							<div class="col-lg-2">
+								<a
+									href="http://www.staples.com/deals/Black-Friday-2016-Deals/BI1146571"
+									target="_blank"> <img height="180" width="180"
+									src="<c:url value="/resources/img/Staples.jpg"/>"
+									alt="Image Alternative text" title="Image Title" />
+								<h4 style="color: white; text-align: center; margin-top: 2%">Staples</h4></a>
+							</div>
+							<div class="col-lg-2">
+								<a href="https://blackfriday.com/stores/sears" target="_blank">
+									<img height="180" width="180"
+									src="<c:url value="/resources/img/Sears.jpg"/>"
+									alt="Image Alternative text" title="Image Title" />
+								<h4 style="color: white; text-align: center; margin-top: 2%">Sears</h4>
+								</a>
+							</div>
+							<div class="col-lg-2">
+								<a
+									href="http://shop.lenovo.com/gb/en/deals-and-coupons/black-friday-deals/"
+									target="_blank"> <img height="180" width="180"
+									src="<c:url value="/resources/img/Lenovo.jpg"/>"
+									alt="Image Alternative text" title="Image Title" />
+								<h4 style="color: white; text-align: center; margin-top: 2%">Lenovo</h4></a>
+							</div>
+							<div class="col-lg-2">
+								<a href="http://bestblackfriday.com/ads/kmart-black-friday"
+									target="_blank"> <img height="180" width="180"
+									src="<c:url value="/resources/img/Kmart.jpg"/>"
+									alt="Image Alternative text" title="Image Title" />
+								<h4 style="color: white; text-align: center; margin-top: 2%">Kmart</h4></a>
+							</div>
+							<div class="col-lg-2"></div>
 						</div>
 					</div>
 
 					<div class="item">
-						<div class="col-lg-12" style="margin:7%">
-							<div class="col-lg-2" >
-							<a href="https://www.theblackfriday.com/officedepot-blackfriday.shtml" target="_blank"> <img height="180" width="180" src="<c:url value="/resources/img/od.jpg"/>"
-						alt="Image Alternative text" title="Image Title" /><h4 style="color:white;text-align:center;margin-top:2%">Office Depot and OfficeMax</h4>
-						</a>
+						<div class="col-lg-12" style="margin: 7%">
+							<div class="col-lg-2">
+								<a
+									href="https://www.microsoftstore.com/store/msca/en_CA/cat/Black-Friday-Sale/categoryID.70456100"
+									target="_blank"> <img height="180" width="180"
+									src="<c:url value="/resources/img/MSS.jpg"/>"
+									alt="Image Alternative text" title="Image Title" />
+								<h4 style="color: white; text-align: center; margin-top: 2%">Microsoft
+										Store</h4>
+								</a>
+							</div>
+							<div class="col-lg-2">
+								<a
+									href="http://www.bodybuilding.com/store/black-friday-deals.html"
+									target="_blank"> <img height="180" width="180"
+									src="<c:url value="/resources/img/BBC.jpg"/>"
+									alt="Image Alternative text" title="Image Title" />
+								<h4 style="color: white; text-align: center; margin-top: 2%">BodyBulding.com</h4></a>
+							</div>
+							<div class="col-lg-2">
+								<a
+									href="http://www.toysrus.com/shop/index.jsp?categoryId=16289696"
+									target="_blank"> <img height="180" width="180"
+									src="<c:url value="/resources/img/tru.jpg"/>"
+									alt="Image Alternative text" title="Image Title" />
+								<h4 style="color: white; text-align: center; margin-top: 2%">Toys
+										R Us</h4></a>
+							</div>
+							<div class="col-lg-2">
+								<a href="http://www.samsclub.com/sams/black-friday/4820109.cp"
+									target="_blank"> <img height="180" width="180"
+									src="<c:url value="/resources/img/sc.jpg"/>"
+									alt="Image Alternative text" title="Image Title" />
+								<h4 style="color: white; text-align: center; margin-top: 2%">Sam's
+										Club</h4></a>
+							</div>
+							<div class="col-lg-2">
+								<a href="http://www.gamestop.com/INTL/choose_site_all.html"
+									target="_blank"> <img height="180" width="180"
+									src="<c:url value="/resources/img/gs.jpg"/>"
+									alt="Image Alternative text" title="Image Title" />
+								<h4 style="color: white; text-align: center; margin-top: 2%">GameStop</h4></a>
+							</div>
+							<div class="col-lg-2"></div>
 						</div>
-						<div class="col-lg-2">
-						<a href="http://www.jcpenney.com/blackfridaydeals" target="_blank"> <img height="180" width="180" src="<c:url value="/resources/img/jcp.jpg"/>"
-						alt="Image Alternative text" title="Image Title" /><h4 style="color:white;text-align:center;margin-top:2%">JCPenney</h4></a></div>
-						<div class="col-lg-2">
-						<a href="http://www.bjs.com/blackfriday.content.inclub_black_friday.B" target="_blank"> <img height="180" width="180" src="<c:url value="/resources/img/bhw.jpg"/>"
-						alt="Image Alternative text" title="Image Title" /><h4 style="color:white;text-align:center;margin-top:2%">BJs Wholesale</h4></a></div>
-						<div class="col-lg-2">
-						<a href="https://www.theblackfriday.com/pet-smart-blackfriday-ad.shtml" target="_blank"> <img height="180" width="180" src="<c:url value="/resources/img/px.jpg"/>"
-						alt="Image Alternative text" title="Image Title" /><h4 style="color:white;text-align:center;margin-top:2%">PetSmart</h4></a></div>
-						<div class="col-lg-2">
-						<a href="https://www.theblackfriday.com/ace-hardware-blackfriday.shtml" target="_blank"> <img height="180" width="180" src="<c:url value="/resources/img/ace.jpg"/>"
-						alt="Image Alternative text" title="Image Title" /><h4 style="color:white;text-align:center;margin-top:2%">Ace Hardware</h4></a></div>
-						<div class="col-lg-2"></div>
+					</div>
+
+					<div class="item">
+						<div class="col-lg-12" style="margin: 7%">
+							<div class="col-lg-2">
+								<a
+									href="https://www.theblackfriday.com/officedepot-blackfriday.shtml"
+									target="_blank"> <img height="180" width="180"
+									src="<c:url value="/resources/img/od.jpg"/>"
+									alt="Image Alternative text" title="Image Title" />
+								<h4 style="color: white; text-align: center; margin-top: 2%">Office
+										Depot and OfficeMax</h4>
+								</a>
+							</div>
+							<div class="col-lg-2">
+								<a href="http://www.jcpenney.com/blackfridaydeals"
+									target="_blank"> <img height="180" width="180"
+									src="<c:url value="/resources/img/jcp.jpg"/>"
+									alt="Image Alternative text" title="Image Title" />
+								<h4 style="color: white; text-align: center; margin-top: 2%">JCPenney</h4></a>
+							</div>
+							<div class="col-lg-2">
+								<a
+									href="http://www.bjs.com/blackfriday.content.inclub_black_friday.B"
+									target="_blank"> <img height="180" width="180"
+									src="<c:url value="/resources/img/bhw.jpg"/>"
+									alt="Image Alternative text" title="Image Title" />
+								<h4 style="color: white; text-align: center; margin-top: 2%">BJs
+										Wholesale</h4></a>
+							</div>
+							<div class="col-lg-2">
+								<a
+									href="https://www.theblackfriday.com/pet-smart-blackfriday-ad.shtml"
+									target="_blank"> <img height="180" width="180"
+									src="<c:url value="/resources/img/px.jpg"/>"
+									alt="Image Alternative text" title="Image Title" />
+								<h4 style="color: white; text-align: center; margin-top: 2%">PetSmart</h4></a>
+							</div>
+							<div class="col-lg-2">
+								<a
+									href="https://www.theblackfriday.com/ace-hardware-blackfriday.shtml"
+									target="_blank"> <img height="180" width="180"
+									src="<c:url value="/resources/img/ace.jpg"/>"
+									alt="Image Alternative text" title="Image Title" />
+								<h4 style="color: white; text-align: center; margin-top: 2%">Ace
+										Hardware</h4></a>
+							</div>
+							<div class="col-lg-2"></div>
 						</div>
 					</div>
 				</div>
 
 				<!-- Left and right controls -->
-				<a class="left carousel-control" style="border-radius: 35px;" href="#myCarousel" role="button"
-					data-slide="prev"> <span
+				<a class="left carousel-control" style="border-radius: 35px;"
+					href="#myCarousel" role="button" data-slide="prev"> <span
 					class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
 					<span class="sr-only">Previous</span>
-				</a> <a class="right carousel-control" style="border-radius: 35px;" href="#myCarousel" role="button"
-					data-slide="next"> <span
+				</a> <a class="right carousel-control" style="border-radius: 35px;"
+					href="#myCarousel" role="button" data-slide="next"> <span
 					class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
 					<span class="sr-only">Next</span>
 				</a>
