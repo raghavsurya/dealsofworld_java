@@ -438,7 +438,7 @@
 						<div class="col-lg-12" style="margin: 7%">
 							<div class="col-lg-2">
 								<a
-									href="http://store.hp.com/?source=aw&aid=7168&jumpid=af_6mrc7uxaeb&awc=7168_1479425719_bc16c69bc6c6b5bf05c18d6fe29dd276&aoid=35252&pbid=139740&siteid=http%3A%2F%2Fdealspl%2Eus"
+									href="/product/hp"
 									target="_blank"> <img height="180" width="180"
 									src="<c:url value="/resources/img/hp.jpg"/>"
 									alt="Image Alternative text" title="Image Title" />
@@ -446,7 +446,7 @@
 								</a>
 							</div>
 							<div class="col-lg-2">
-								<a href="http://blackfriday.bestbuy.com/?category=doorbusters"
+								<a href="product/best-buy"
 									target="_blank"> <img height="180" width="180"
 									src="<c:url value="/resources/img/BestBuy.jpg"/>"
 									alt="Image Alternative text" title="Image Title" />
@@ -454,21 +454,21 @@
 										Buy</h4></a>
 							</div>
 							<div class="col-lg-2">
-								<a href="http://www.kohls.com/sale-event/black-friday-deals.jsp"
+								<a href="product/kohls"
 									target="_blank"> <img height="180" width="180"
 									src="<c:url value="/resources/img/Kohls.jpg"/>"
 									alt="Image Alternative text" title="Image Title" />
 								<h4 style="color: white; text-align: center; margin-top: 2%">Kohls</h4></a>
 							</div>
 							<div class="col-lg-2">
-								<a href="https://www.walmart.com/cp/black-friday/1076614"
+								<a href="product/walmart"
 									target="_blank"> <img height="180" width="180"
 									src="<c:url value="/resources/img/walmart.jpg"/>"
 									alt="Image Alternative text" title="Image Title" />
 								<h4 style="color: white; text-align: center; margin-top: 2%">Walmart</h4></a>
 							</div>
 							<div class="col-lg-2">
-								<a href="http://intl.target.com/c/target-black-friday/-/N-5q0f2"
+								<a href="product/target"
 									target="_blank"> <img height="180" width="180"
 									src="<c:url value="/resources/img/Target.jpg"/>"
 									alt="Image Alternative text" title="Image Title" />
@@ -482,7 +482,7 @@
 						<div class="col-lg-12" style="margin: 7%">
 							<div class="col-lg-2">
 								<a
-									href="http://www.newegg.com/Black-Friday-Sale/EventSaleStore/ID-42"
+									href="product/newegg"
 									target="_blank"> <img height="180" width="180"
 									src="<c:url value="/resources/img/Newegg.jpg"/>"
 									alt="Image Alternative text" title="Image Title" />
@@ -491,14 +491,14 @@
 							</div>
 							<div class="col-lg-2">
 								<a
-									href="http://www.staples.com/deals/Black-Friday-2016-Deals/BI1146571"
+									href="product/staples"
 									target="_blank"> <img height="180" width="180"
 									src="<c:url value="/resources/img/Staples.jpg"/>"
 									alt="Image Alternative text" title="Image Title" />
 								<h4 style="color: white; text-align: center; margin-top: 2%">Staples</h4></a>
 							</div>
 							<div class="col-lg-2">
-								<a href="https://blackfriday.com/stores/sears" target="_blank">
+								<a href="product/Sears" target="_blank">
 									<img height="180" width="180"
 									src="<c:url value="/resources/img/Sears.jpg"/>"
 									alt="Image Alternative text" title="Image Title" />
@@ -507,14 +507,14 @@
 							</div>
 							<div class="col-lg-2">
 								<a
-									href="http://shop.lenovo.com/gb/en/deals-and-coupons/black-friday-deals/"
+									href="product/lenovo"
 									target="_blank"> <img height="180" width="180"
 									src="<c:url value="/resources/img/Lenovo.jpg"/>"
 									alt="Image Alternative text" title="Image Title" />
 								<h4 style="color: white; text-align: center; margin-top: 2%">Lenovo</h4></a>
 							</div>
 							<div class="col-lg-2">
-								<a href="http://bestblackfriday.com/ads/kmart-black-friday"
+								<a href="product/kmart"
 									target="_blank"> <img height="180" width="180"
 									src="<c:url value="/resources/img/Kmart.jpg"/>"
 									alt="Image Alternative text" title="Image Title" />
@@ -528,7 +528,7 @@
 						<div class="col-lg-12" style="margin: 7%">
 							<div class="col-lg-2">
 								<a
-									href="https://www.microsoftstore.com/store/msca/en_CA/cat/Black-Friday-Sale/categoryID.70456100"
+									href="product/mss"
 									target="_blank"> <img height="180" width="180"
 									src="<c:url value="/resources/img/MSS.jpg"/>"
 									alt="Image Alternative text" title="Image Title" />
@@ -538,7 +538,7 @@
 							</div>
 							<div class="col-lg-2">
 								<a
-									href="http://www.bodybuilding.com/store/black-friday-deals.html"
+									href="product/bbc"
 									target="_blank"> <img height="180" width="180"
 									src="<c:url value="/resources/img/BBC.jpg"/>"
 									alt="Image Alternative text" title="Image Title" />

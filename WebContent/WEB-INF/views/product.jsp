@@ -129,7 +129,7 @@
 					<label>Password</label> <input class="form-control" type="text" />
 				</div>
 				<div class="checkbox">
-					<label> <input class="i-check" type="checkbox" />Remeber
+					<label> <input class="i-check" type="checkbox" />Remember
 						Me
 					</label>
 				</div>
@@ -396,58 +396,49 @@
 			<header class="page-header">
 				<ol class="breadcrumb page-breadcrumb">
 					<li><a href="/">Home</a></li>
-					<li class="active">Best Buy Black Friday Deals</li>
+					<li class="active">${brandName}BlackFriday Deals</li>
 				</ol>
 			</header>
+			<div class="col-md-12" style="margin-top: 3%">
+				<div class="col-md-3"></div>
+				<div class="col-md-6">
+					<div class="_box-highlight">
+						<h1>Best Buy deals for you</h1>
+						<p class="text-muted text-sm">Entire deal booklet at your
+							fingertip</p>
+						<p class="product-page-desc-lg">No more bulky booklets and
+							troublesome phamphlets, we bring you the easier alternative. Get
+							the latest Black Friday deals at Best Buy in one place. Please
+							feel free to browse through the pages for the entire collection
+							of the deals offered by Best Buy this season.</p>
+					</div>
+				</div>
+				<div class="col-md-3"></div>
+			</div>
 			<div class="row row-col-border" data-gutter="60">
-				<div class="col-md-9">
+				<div class="col-md-12">
 					<div class="row">
-						<div class="col-md-7">
-							<div class="product-page-product-wrap jqzoom-stage">
-								<div class="clearfix">
-									<a href="resources/img/blackfriday/best-buy_1.png" id="jqzoom"
-										data-rel="gal-1"> <img
-										src="resources/img/blackfriday/best-buy_1.png"
-										alt="Image Alternative text" title="Image Title" />
-									</a>
+						<div class="col-md-12">
+							<div class="imgCarouselContainer">
+								<div class="slider_wrapper">
+									<ul id="image_slider">
+										<c:forEach items="${blackfriday}" var="blackfriday">
+											<li><img src="/resources/img/blackfriday/${blackfriday}"
+												alt="Image Alternative text" title="Image Title" /></li>
+
+
+										</c:forEach>
+
+
+									</ul>
+									<span class="nvgt" id="prev"></span> <span class="nvgt"
+										id="next"></span>
 								</div>
 							</div>
-							<ul class="jqzoom-list">
-								<li><a class="zoomThumbActive" href="javascript:void(0)"
-									data-rel="{gallery:'gal-1', smallimage: 'resources/img/blackfriday/best-buy_2.png', largeimage: 'resources/img/blackfriday/best-buy_2.png'}">
-										<img src="resources/img/blackfriday/best-buy_2.png"
-										alt="Image Alternative text" title="Image Title" />
-								</a></li>
-								<li><a href="javascript:void(0)"
-									data-rel="{gallery:'gal-1', smallimage: 'resources/img/blackfriday/best-buy_3.png', largeimage: 'resources/img/blackfriday/best-buy_3.png'}">
-										<img src="resources/img/blackfriday/best-buy_3.png"
-										alt="Image Alternative text" title="Image Title" />
-								</a></li>
-								<li><a href="javascript:void(0)"
-									data-rel="{gallery:'gal-1', smallimage: 'resources/img/blackfriday/best-buy_4.png', largeimage: 'resources/img/blackfriday/best-buy_4.png'}">
-										<img src="resources/img/blackfriday/best-buy_4.png"
-										alt="Image Alternative text" title="Image Title" />
-								</a></li>
-								<li><a href="javascript:void(0)"
-									data-rel="{gallery:'gal-1', smallimage: 'resources/img/blackfriday/best-buy_5.png', largeimage: 'resources/img/blackfriday/best-buy_5.png'}">
-										<img src="resources/img/blackfriday/best-buy_5.png"
-										alt="Image Alternative text" title="Image Title" />
-								</a></li>
-							</ul>
 						</div>
-						<div class="col-md-5">
-							<div class="_box-highlight">
-								<h1>Best Buy deals for you</h1>
-								<p class="text-muted text-sm">Entire deal booklet at your
-									fingertip</p>
-								<p class="product-page-desc-lg">No more bulky booklets and
-									troublesome phamphlets, we bring you the easier alternative.
-									Get the latest Black Friday deals at Best Buy in one place.
-									Please feel free to browse through the pages for the entire
-									collection of the deals offered by Best Buy this season.</p>
-							</div>
-						</div>
+
 					</div>
+
 					<div class="gap"></div>
 					<div class="gap"></div>
 					<h3 class="widget-title">Other awesome deals waiting for you</h3>
@@ -462,8 +453,7 @@
 								</div>
 								<a class="product-link" href="#"></a>
 								<div class="product-caption">
-									<h5 class="product-caption-title">WalMart
-										 Deals</h5>
+									<h5 class="product-caption-title">WalMart Deals</h5>
 								</div>
 							</div>
 						</div>
@@ -493,7 +483,7 @@
 								</div>
 								<a class="product-link" href="#"></a>
 								<div class="product-caption">
-									
+
 									<h5 class="product-caption-title">Microsoft Store Deals</h5>
 
 								</div>
@@ -543,7 +533,7 @@
 								</div>
 								<a class="product-link" href="#"></a>
 								<div class="product-caption">
-								
+
 									<h5 class="product-caption-title">Staples Deals</h5>
 									<div class="product-caption-price">
 										<span class="product-caption-price-old">$100</span><span
@@ -562,7 +552,7 @@
 								</div>
 								<a class="product-link" href="#"></a>
 								<div class="product-caption">
-									
+
 									<h5 class="product-caption-title">Body Building Deals</h5>
 
 								</div>
@@ -676,7 +666,7 @@
 	<script src="<c:url value="/resources/js/owl-carousel.js" />"></script>
 	<script src="<c:url value="/resources/js/magnific.js" />"></script>
 	<script src="<c:url value="/resources/js/custom.js" />"></script>
-
+	<script src="<c:url value="/resources/js/imgcarousel.js" />"></script>
 	<script src="<c:url value="/resources/js/cust.js" />"></script>
 	<script src="<c:url value="/resources/js/switcher.js" />"></script>
 

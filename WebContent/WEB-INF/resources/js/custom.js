@@ -1,4 +1,6 @@
 "use strict";
+//1. set ul width 
+//2. image when click prev/next button
 
 //  i Check plugin
 $('.i-check, .i-radio').iCheck({

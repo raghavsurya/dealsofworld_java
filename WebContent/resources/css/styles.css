@@ -6009,4 +6009,56 @@ undefinedundefined.owl-height {
     position: relative
   }
 }
+
+.imgCarouselContainer{
+	width:105%;
+	height:900px;
+	padding:20px;
+	border:1px solid gray;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+	background: #ffffff;	
+}
+.slider_wrapper{
+	overflow: hidden;
+	position:relative;
+	height:850px;
+
+	top:auto;
+}
+#image_slider{
+
+	position: relative;
+	height: auto;
+	list-style: none;
+	overflow: hidden;
+	float: left;
+	/*Chrom default padding for ul is 40px */
+	padding:0px;
+	margin:0px;
+}
+#image_slider li{
+	position: relative;
+	float: left;
+}
+.nvgt{
+	position:absolute;
+	top: 50%;
+	height: 70px;
+	width: 60px;
+	opacity: 0.6;
+}
+.nvgt:hover{
+	opacity: 0.9;
+}
+#prev{
+	background: maroon url('https://dl.dropboxusercontent.com/u/65639888/image/prev.png') no-repeat center;
+	left: 0px;
+}
+#next{
+	background: maroon url('https://dl.dropboxusercontent.com/u/65639888/image/next.png') no-repeat center;
+	right: 0px;
+}
+
 /****** End of Owl Slider ******/

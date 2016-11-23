@@ -81,26 +81,7 @@ public class HomeController {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-/*	      Product p =new Product();
-	      p.setName("gg");
-	      p.setPrice(4);
-	      
-	      Product p2 =new Product();
-	      p2.setName("hh");
-	      p2.setPrice(2);
-	      
-	      Product p3 =new Product();
-	      p3.setName("hh");
-	      p3.setPrice(5);
-	      
-	      Product p4 =new Product();
-	      p4.setName("hh");
-	      p4.setPrice(1);
-	      
-		  productList.add(p);
-		  productList.add(p2);
-		  productList.add(p3);
-		  productList.add(p4);*/
+
 		  
 	  model.addAttribute("cart", productList);    
 	  }
@@ -653,15 +634,32 @@ public String gopi() {
 	return "gopi";
 }
 
-@RequestMapping(value = "product", method = RequestMethod.GET)
-public String product() {
-	
+@RequestMapping(value = "product/{name}", method = RequestMethod.GET)
+public String product(@PathVariable("name")String name, Model model) {
+	File folder = new File("/Users/raghavsurya/Desktop/dow/dealsofworld_java/WebContent/resources/img/blackfriday/");
+    File[] listOfFiles = folder.listFiles();
+    List<String> listTemp = new ArrayList<String>();
+    List<String> list = new ArrayList<String>();
+        for (int i = 0; i < listOfFiles.length; i++) {
+          if (listOfFiles[i].isFile()) {
+             listTemp.add(listOfFiles[i].getName());
+          } else if (listOfFiles[i].isDirectory()) {
+            System.out.println("Directory " + listOfFiles[i].getName());
+          }
+        }
+        for(String listContains:listTemp){
+           if(listContains.contains(name)){
+                  list.add(listContains);
+           }
+        }
+        model.addAttribute("blackfriday", list);
+        model.addAttribute("brandName", name);
 	return "product";
 }
 
 @RequestMapping(value = "blackfriday/{id}", method = RequestMethod.GET)
 public String blackfriday(@PathVariable("id")String id,Model model) {
-       File folder = new File("C:\\Users\\Arun Chinnannan\\Desktop\\dealsofworld\\WebContent\\resources\\img\\blackfriday\\");
+       File folder = new File("/Users/raghavsurya/Desktop/dow/dealsofworld_java/WebContent/resources/img/blackfriday/");
        File[] listOfFiles = folder.listFiles();
        List<String> listTemp = new ArrayList<String>();
        List<String> list = new ArrayList<String>();
